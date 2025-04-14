@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Summary | TicketHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TicketHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../event/details.html">Events</a></li>
+                    <li><a href="confirmation.html">My Bookings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container booking-summary">
+        <h2>Your Booking Summary</h2>
+        
+        <div class="summary-card">
+            <div class="event-info">
+                <img src="../images/theatre.jpg" alt="Romeo & Juliet">
+                <div>
+                    <h3>Romeo & Juliet</h3>
+                    <p><strong>Date:</strong> June 22, 2025</p>
+                    <p><strong>Time:</strong> 7:30 PM</p>
+                    <p><strong>Venue:</strong> National Theater</p>
+                    <p><strong>Seats:</strong> Premium Section, Row D (Seats 12-13)</p>
+                </div>
+            </div>
+
+            <div class="price-details">
+                <h3>Order Summary</h3>
+                <table>
+                    <tr>
+                        <td>2 x Premium Tickets</td>
+                        <td>$240.00</td>
+                    </tr>
+                    <tr>
+                        <td>Service Fee</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr class="total">
+                        <td><strong>Total</strong></td>
+                        <td><strong>$245.00</strong></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="payment-form">
+                <h3>Payment Information</h3>
+                <form action="confirmation.html" method="get">
+                    <div class="form-group">
+                        <label for="card-name">Name on Card</label>
+                        <input type="text" id="card-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" placeholder="123" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TicketHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

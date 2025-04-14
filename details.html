@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details | TicketHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TicketHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="list.html">Events</a></li>
+                    <li><a href="../booking/summary.html">My Bookings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container event-details">
+        <div class="event-header">
+            <img src="../images/theatre.jpg" alt="Romeo & Juliet Performance" class="event-main-image">
+            <div class="event-info">
+                <h1>Romeo & Juliet</h1>
+                <span class="event-category">Theater</span>
+                <div class="event-meta">
+                    <p><strong>Date:</strong> June 22, 2025</p>
+                    <p><strong>Time:</strong> 7:30 PM</p>
+                    <p><strong>Venue:</strong> National Theater, Main Hall</p>
+                    <p><strong>Duration:</strong> 2 hours 30 minutes (with intermission)</p>
+                    <p><strong>Price:</strong> $45 - $120</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-description">
+            <h2>About the Event</h2>
+            <p>Shakespeare's timeless tragedy of star-crossed lovers comes to life in this stunning new production. 
+            Directed by award-winning director Sarah Johnson, this contemporary interpretation maintains the beauty 
+            of the original text while bringing fresh perspective to the classic tale.</p>
+        </div>
+
+        <div class="booking-section">
+            <h2>Book Your Tickets</h2>
+            <form action="../booking/summary.html" method="get">
+                <div class="form-group">
+                    <label for="date">Select Date:</label>
+                    <select id="date" name="date">
+                        <option value="2023-06-20">June 20 (Tue) 7:30 PM</option>
+                        <option value="2023-06-22" selected>June 22 (Thu) 7:30 PM</option>
+                        <option value="2023-06-24">June 24 (Sat) 2:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tickets">Number of Tickets:</label>
+                    <input type="number" id="tickets" name="tickets" min="1" max="10" value="1">
+                </div>
+
+                <div class="form-group">
+                    <label>Seating Section:</label>
+                    <div class="seat-options">
+                        <label><input type="radio" name="section" value="premium" checked> Premium ($120)</label>
+                        <label><input type="radio" name="section" value="standard"> Standard ($75)</label>
+                        <label><input type="radio" name="section" value="balcony"> Balcony ($45)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Continue to Booking Summary</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TicketHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
