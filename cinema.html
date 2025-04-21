@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blockbuster Premiere | TicketHub</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TicketHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../list.html">Events</a></li>
+                    <li><a href="../../booking/summary.html">My Bookings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container event-details">
+        <div class="event-header">
+            <img src="../../images/cinema.jpg" alt="Blockbuster Premiere" class="event-main-image">
+            <div class="event-info">
+                <h1>Blockbuster Premiere</h1>
+                <span class="event-category">Cinema</span>
+                <div class="event-meta">
+                    <p><strong>Date:</strong> July 15, 2025</p>
+                    <p><strong>Time:</strong> 6:00 PM</p>
+                    <p><strong>Venue:</strong> Star Cineplex</p>
+                    <p><strong>Duration:</strong> 2 hours 15 minutes</p>
+                    <p><strong>Price:</strong> $12.99 - $19.99</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="event-description">
+            <h2>About the Event</h2>
+            <p>Be among the first to experience the year's most anticipated film at our exclusive premiere event. 
+            This special screening includes red carpet access, a meet-and-greet with cast members, 
+            and premium theater seating with gourmet concessions.</p>
+        </div>
+    
+        <div class="booking-section">
+            <h2>Book Your Tickets</h2>
+            <form action="../../booking/summary/cinema-summary.html" method="get">
+                <div class="form-group">
+                    <label for="date">Select Date:</label>
+                    <select id="date" name="date">
+                        <option value="2025-07-15">July 15 (Tue) 6:00 PM</option>
+                        <option value="2025-07-16">July 16 (Wed) 6:00 PM</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tickets">Number of Tickets:</label>
+                    <input type="number" id="tickets" name="tickets" min="1" max="10" value="1">
+                </div>
+    
+                <div class="form-group">
+                    <label>Ticket Type:</label>
+                    <div class="seat-options">
+                        <label><input type="radio" name="section" value="premium" checked> Premium ($19.99)</label>
+                        <label><input type="radio" name="section" value="standard"> Standard ($14.99)</label>
+                        <label><input type="radio" name="section" value="matinee"> Matinee ($12.99)</label>
+                    </div>
+                </div>
+    
+                <button type="submit" class="btn">Continue to Booking Summary</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TicketHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

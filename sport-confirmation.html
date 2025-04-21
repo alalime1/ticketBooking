@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Booking Confirmed | TicketHub</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TicketHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../../index.html">Home</a></li>
+                    <li><a href="../../../event/list.html">Events</a></li>
+                    <li><a href="../../summary.html">My Bookings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container confirmation">
+        <div class="confirmation-card">
+            <div class="confirmation-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <h2>Booking Confirmed!</h2>
+                <p>Your booking reference: <strong>THB-2023-58744</strong></p>
+                <p>A confirmation has been sent to your email address.</p>
+            </div>
+
+            <div class="ticket">
+                <div class="ticket-image">
+                    <img src="../../images/sport.jpg" alt="Championship Final">
+                </div>
+                <div class="ticket-details">
+                    <h3>Championship Final</h3>
+                    <p><strong>Date:</strong> July 10, 2025</p>
+                    <p><strong>Time:</strong> 3:00 PM</p>
+                    <p><strong>Venue:</strong> Olympic Stadium</p>
+                    <p><strong>Tickets:</strong> 2 x Box Seats</p>
+                    <p><strong>Total:</strong> $305.00</p>
+                </div>
+                <div class="ticket-qr">
+                    <div class="qr-placeholder"></div>
+                    <small>Scan QR code at entrance</small>
+                </div>
+            </div>
+
+            <div class="confirmation-actions"></div>
+                <button class="btn" onclick="window.print()">Print Ticket</button>
+                <a href="../../../index.html" class="btn secondary">Back to Home</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TicketHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

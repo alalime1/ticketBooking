@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Championship Final | TicketHub</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TicketHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../list.html">Events</a></li>
+                    <li><a href="../../booking/summary.html">My Bookings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container event-details">
+        <div class="event-header">
+            <img src="../../images/sport.jpg" alt="Championship Final" class="event-main-image">
+            <div class="event-info">
+                <h1>Championship Final</h1>
+                <span class="event-category">Sports</span>
+                <div class="event-meta">
+                    <p><strong>Date:</strong> July 10, 2025</p>
+                    <p><strong>Time:</strong> 3:00 PM</p>
+                    <p><strong>Venue:</strong> Olympic Stadium</p>
+                    <p><strong>Duration:</strong> 2 hours</p>
+                    <p><strong>Price:</strong> $65 - $150</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="event-description">
+            <h2>About the Event</h2>
+            <p>Witness the most anticipated match of the season as the top two teams battle for the championship title. 
+            This high-stakes game promises intense action, world-class athleticism, and unforgettable moments. 
+            Includes halftime show and post-game celebrations.</p>
+        </div>
+    
+        <div class="booking-section">
+            <h2>Book Your Tickets</h2>
+            <form action="../../booking/summary/sport-summary.html" method="get">
+                <div class="form-group">
+                    <label for="date">Select Date:</label>
+                    <select id="date" name="date">
+                        <option value="2025-07-10">July 10 (Thu) 3:00 PM</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="tickets">Number of Tickets:</label>
+                    <input type="number" id="tickets" name="tickets" min="1" max="10" value="1">
+                </div>
+    
+                <div class="form-group">
+                    <label>Seating Section:</label>
+                    <div class="seat-options">
+                        <label><input type="radio" name="section" value="box" checked> Box Seats ($150)</label>
+                        <label><input type="radio" name="section" value="sideline"> Sideline ($95)</label>
+                        <label><input type="radio" name="section" value="general"> General Admission ($65)</label>
+                    </div>
+                </div>
+    
+                <button type="submit" class="btn">Continue to Booking Summary</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TicketHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -348,3 +348,36 @@ nav ul li a {
     font-weight: bold;
     margin: 10px 0;
 }
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.seat.available {
+    background: #4CAF50;
+    color: white;
+}
+
+.seat.available.selected {
+    background: #FF9800;
+}
+
+.seat.unavailable {
+    background: #f44336;
+    color: white;
+    cursor: not-allowed;
+}
