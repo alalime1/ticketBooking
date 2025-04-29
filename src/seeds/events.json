@@ -1,0 +1,271 @@
+[
+  {
+    "title": "Summer Music Fest Dubai",
+    "description": "A vibrant outdoor music festival featuring indie and alternative bands.",
+    "banner": "https://images.pexels.com/photos/417142/pexels-photo-417142.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-06-20",
+    "time": "16:00",
+    "category": "concert",
+    "location": "Dubai Creek Park",
+    "duration": "10 Hours",
+    "eventPasses": [
+      { "name": "Platinum", "price": 180 },
+      { "name": "Gold", "price": 120 },
+      { "name": "General", "price": 75 }
+    ]
+  },
+  {
+    "title": "The Importance of Being Earnest Dubai",
+    "description": "Oscar Wilde's witty and delightful comedy of manners.",
+    "banner": "https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-07-10",
+    "time": "20:00",
+    "category": "theater",
+    "location": "The Theatre - Mall of the Emirates, Dubai",
+    "duration": "2.5 Hours",
+    "eventPasses": [
+      { "name": "Front Row", "price": 95 },
+      { "name": "Middle Tier", "price": 65 },
+      { "name": "Upper Circle", "price": 40 }
+    ]
+  },
+  {
+    "title": "Dubai Falcons vs. Abu Dhabi Sharks",
+    "description": "A high-energy professional kabaddi league match.",
+    "banner": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-08-15",
+    "time": "19:00",
+    "category": "sports",
+    "location": "Zayed Sports City - Indoor Stadium, Dubai",
+    "duration": "3.5 Hours",
+    "eventPasses": [
+      { "name": "VIP Box", "price": 110 },
+      { "name": "Premium Seats", "price": 70 },
+      { "name": "Standard Admission", "price": 50 }
+    ]
+  },
+  {
+    "title": "Retro Film Night: Pulp Fiction Dubai",
+    "description": "A special screening of Quentin Tarantino's iconic crime film.",
+    "banner": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-09-05",
+    "time": "22:00",
+    "category": "cinema",
+    "location": "Roxy Cinemas - City Walk, Dubai",
+    "duration": "3 Hours",
+    "eventPasses": [
+      { "name": "Balcony Seats", "price": 70 },
+      { "name": "Main Floor", "price": 55 },
+      { "name": "Student Discount", "price": 35 }
+    ]
+  },
+  {
+    "title": "Electronic Dance Party Dubai",
+    "description": "Lose yourself to the rhythm with pulsating beats and stunning visuals.",
+    "banner": "https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-10-25",
+    "time": "20:00",
+    "category": "concert",
+    "location": "Dubai World Trade Centre - Arena",
+    "duration": "9 Hours",
+    "eventPasses": [
+      { "name": "VIP Lounge", "price": 200 },
+      { "name": "Dance Floor Access", "price": 130 },
+      { "name": "Regular Entry", "price": 80 }
+    ]
+  },
+  {
+    "title": "Death of a Salesman Dubai",
+    "description": "Arthur Miller's powerful and tragic portrayal of the American Dream.",
+    "banner": "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-11-12",
+    "time": "19:30",
+    "category": "theater",
+    "location": "Courtyard Playhouse Dubai",
+    "duration": "3 Hours",
+    "eventPasses": [
+      { "name": "Premium View", "price": 85 },
+      { "name": "Standard View", "price": 60 },
+      { "name": "Limited View", "price": 35 }
+    ]
+  },
+  {
+    "title": "Dubai Sharks vs. Sharjah Eagles",
+    "description": "A crucial super league football match.",
+    "banner": "https://images.pexels.com/photos/669611/pexels-photo-669611.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2025-12-01",
+    "time": "15:00",
+    "category": "sports",
+    "location": "The Sevens Stadium, Dubai",
+    "duration": "2 Hours",
+    "eventPasses": [
+      { "name": "Executive Box", "price": 120 },
+      { "name": "Sideline Seats", "price": 75 },
+      { "name": "Goal End", "price": 55 }
+    ]
+  },
+  {
+    "title": "Animated Classics Marathon Dubai",
+    "description": "A day-long screening of beloved animated films.",
+    "banner": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-01-18",
+    "time": "10:00",
+    "category": "cinema",
+    "location": "Reel Cinemas - Dubai Mall",
+    "duration": "8 Hours",
+    "eventPasses": [
+      { "name": "All-Day Pass", "price": 100 },
+      { "name": "Morning Session", "price": 60 },
+      { "name": "Afternoon Session", "price": 60 }
+    ]
+  },
+  {
+    "title": "Rock Legends Tribute Night Dubai",
+    "description": "Local bands paying homage to the greatest rock anthems.",
+    "banner": "https://images.pexels.com/photos/167483/pexels-photo-167483.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-02-10",
+    "time": "21:30",
+    "category": "concert",
+    "location": "The Music Room - Majestic Hotel, Dubai",
+    "duration": "4.5 Hours",
+    "eventPasses": [
+      { "name": "Meet & Greet", "price": 150 },
+      { "name": "Standing Room", "price": 60 },
+      { "name": "Balcony View", "price": 80 }
+    ]
+  },
+  {
+    "title": "A Midsummer Night's Dream Dubai",
+    "description": "Shakespeare's enchanting comedy of love and magic.",
+    "banner": "https://images.pexels.com/photos/105029/pexels-photo-105029.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-03-01",
+    "time": "18:30",
+    "category": "theater",
+    "location": "The Junction - Alserkal Avenue",
+    "duration": "3 Hours",
+    "eventPasses": [
+      { "name": "Picnic Area", "price": 75 },
+      { "name": "General Seating", "price": 50 },
+      { "name": "Student Pass", "price": 30 }
+    ]
+  },
+  {
+    "title": "Dubai Bulls vs. Abu Dhabi Hawks (Hockey)",
+    "description": "A national level hockey championship match.",
+    "banner": "https://images.pexels.com/photos/1308787/pexels-photo-1308787.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-03-25",
+    "time": "16:30",
+    "category": "sports",
+    "location": "Al Nasr Leisureland - Ice Rink, Dubai",
+    "duration": "2.5 Hours",
+    "eventPasses": [
+      { "name": "VIP Lounge", "price": 100 },
+      { "name": "Grandstand", "price": 60 },
+      { "name": "Bleachers", "price": 40 }
+    ]
+  },
+  {
+    "title": "International Film Festival Showcase Dubai",
+    "description": "A curated selection of award-winning short films from around the world.",
+    "banner": "https://images.pexels.com/photos/262409/pexels-photo-262409.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-04-15",
+    "time": "19:00",
+    "category": "cinema",
+    "location": "VOX Cinemas - Mall of the Emirates",
+    "duration": "4 Hours",
+    "eventPasses": [
+      { "name": "Festival Pass", "price": 120 },
+      { "name": "Single Screening", "price": 40 },
+      { "name": "Day Pass", "price": 70 }
+    ]
+  },
+  {
+    "title": "Acoustic Evening with Local Artists Dubai",
+    "description": "Unplugged performances by talented singers and songwriters.",
+    "banner": "https://images.pexels.com/photos/1547978/pexels-photo-1547978.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-05-05",
+    "time": "20:30",
+    "category": "concert",
+    "location": "The Fridge Concert Series, Dubai",
+    "duration": "3.5 Hours",
+    "eventPasses": [
+      { "name": "Premium Seating", "price": 70 },
+      { "name": "General Admission", "price": 45 },
+      { "name": "Student Discount", "price": 30 }
+    ]
+  },
+  {
+    "title": "Mamma Mia! Dubai",
+    "description": "The feel-good musical featuring the songs of ABBA.",
+    "banner": "https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-05-28",
+    "time": "19:00",
+    "category": "theater",
+    "location": "Madinat Theatre - Souk Madinat Jumeirah",
+    "duration": "3 Hours",
+    "eventPasses": [
+      { "name": "Orchestra", "price": 100 },
+      { "name": "Dress Circle", "price": 70 },
+      { "name": "Gallery", "price": 50 }
+    ]
+  },
+  {
+    "title": "Dubai Fighters vs. Abu Dhabi Hawks (Badminton)",
+    "description": "A national ranking badminton tournament final.",
+    "banner": "https://images.pexels.com/photos/373728/pexels-photo-373728.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-06-12",
+    "time": "14:30",
+    "category": "sports",
+    "location": "Hamdan Sports Complex, Dubai",
+    "duration": "3 Hours",
+    "eventPasses": [
+      { "name": "Courtside", "price": 80 },
+      { "name": "General Seating", "price": 50 },
+      { "name": "Student Entry", "price": 35 }
+    ]
+  },
+  {
+    "title": "Silent Film Screening with Live Orchestra Dubai",
+    "description": "A unique cinematic experience with a live musical score.",
+    "banner": "https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-07-01",
+    "time": "20:00",
+    "category": "cinema",
+    "location": "Cinema Akil - Alserkal Avenue",
+    "duration": "2.5 Hours",
+    "eventPasses": [
+      { "name": "VIP Seating", "price": 110 },
+      { "name": "Standard", "price": 75 },
+      { "name": "Limited View", "price": 50 }
+    ]
+  },
+  {
+    "title": "Global DJ Showcase Dubai",
+    "description": "Internationally acclaimed DJs spinning the best of house and techno.",
+    "banner": "https://images.pexels.com/photos/587679/pexels-photo-587679.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-07-20",
+    "time": "21:00",
+    "category": "concert",
+    "location": "Soho Garden DXB",
+    "duration": "7 Hours",
+    "eventPasses": [
+      { "name": "Backstage VIP", "price": 250 },
+      { "name": "Premium Dance Floor", "price": 160 },
+      { "name": "Regular Access", "price": 90 }
+    ]
+  },
+  {
+    "title": "Waiting for Godot Dubai",
+    "description": "Samuel Beckett's groundbreaking absurdist drama.",
+    "banner": "https://images.pexels.com/photos/1671300/pexels-photo-1671300.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+    "date": "2026-08-10",
+    "time": "19:30",
+    "category": "theater",
+    "location": "The Workshop - Alserkal Avenue",
+    "duration": "2 Hours",
+    "eventPasses": [
+      { "name": "Front Seats", "price": 70 },
+      { "name": "General Admission", "price": 45 }
+    ]
+  }
+]

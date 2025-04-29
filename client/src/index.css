@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+    /* Hide everything by default */
+    body * {
+        visibility: hidden;
+    }
+
+    /* Only show the ticket card */
+    .print-only,
+    .print-only * {
+        visibility: visible;
+        color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Remove shadows and borders for cleaner print */
+    .print-only {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Hide buttons when printing */
+    button {
+        display: none !important;
+    }
+}
